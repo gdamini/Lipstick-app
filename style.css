@@ -1,0 +1,33 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn{
+    background-color: darkviolet;
+    color: floralwhite;
+}
+
+.btn:hover{
+    background-color: deeppink;
+}
+
+
+.btn-warning:hover{
+    background-color: black;
+    color: cornsilk;
+}
+
+img{
+    width: 50px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes example{
+    from{box-shadow: 2px 2px 45px darkorchid;}
+    to{box-shadow: 2px 2px 45px deeppink;}
+}
